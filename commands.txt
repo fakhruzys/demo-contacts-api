@@ -1,0 +1,10 @@
+curl -i -H "Content-Type: application/json" -X POST -d "{""name"":""Jeff"",""age"":25,""height"":""212""}" http://localhost:5000/people
+
+
+
+
+curl -i -H "Content-Type: application/json" -X POST -d "{""email"":""Jeff@avengers.com"",""number"":""0123351028""}" http://localhost:5000/people/5f6d7124287159471d554781/contacts
+
+http://127.0.0.1:5000/contacts?q=Jeff@avengers.com
+http://127.0.0.1:5000/contacts?q=0123351028
+http://127.0.0.1:5000/contacts?q=Jeff
